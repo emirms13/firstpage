@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  text-align: center; /*centers everything except elements with given width */
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  /*font-size: 562.5%; /* 100% = 16px if we need 90px/16 = 562.5% */
+  /* font-size: 2em; 16px = 100% = 1 em  => 90px = 5.625em* rem does not care what the parent size is !!! when styling test use rem !!!*/
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto; /* 50px-top auto-right 0-bottom auto-left */
+  font-family: "Sacramento", cursive;
+  color: #055052;
+  /* line-height: 2; line height ( spacing vertically between text ); */
+  /* width: 10%; */
+  /* margin: 0 auto 0 auto; /* top right bottom left */
+  /* margin: 0 auto; /* top-bottom right-left */
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #055052;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #055052;
+}
+
+a {
+  color: #055052;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dbe6fd;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #055052 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.top-container {
+  width: 100%;
+  background-color: #53b8bb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.mountain {
+  margin-top: 186px;
+}
+
+.mid-container {
+  margin: 100px 0;
+}
+
+.bot-container {
+  background-color: #53b8bb;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  width: 15.625rem;
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bot-cloud {
+  width: 15.625rem;
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.html5 {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.css3 {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.paragraph-clear {
+  /*clear: left; /*pushes paragraph under the image so it cant wrap */
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px; /* 40 top auto left-right 60 bot */
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #53b8bb;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #dbe6fd;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
